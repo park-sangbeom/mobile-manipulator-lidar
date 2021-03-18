@@ -14,7 +14,7 @@ This mobile manipulator(UR5 with Robotiq Gripper85, Husky and Lidar) tutorial wi
 
 ## Guide
 
-- For RIL_MM
+- For RIL_MM_Lidar
 [UR5+Robotiq Gripper85+Husky Model]  
 ```
 $ cd ~/catkin_ws/src && git clone https://github.com/ros-industrial/universal_robot.git
@@ -28,7 +28,7 @@ $ rosdep install --from-paths src --ignore-src -r -y
 
 
 ## Sample code for beginner 
-- Spawning RIL_MM in Gazebo and Rviz 
+- Spawning RIL_MM_Lidar in Gazebo and Rviz 
 ```  
 $ roslaunch ril_mm_lidar_gazebo ril_mm_lidar_empty_world.launch
 ```
@@ -50,4 +50,4 @@ $ rosrun ril_mm_python joint_test1.py
 
 ## Description    
 
-<img width="500" height="300" src="https://user-images.githubusercontent.com/78074831/109133146-08b8df80-7798-11eb-98a7-53325b398b83.png"  alt="Screenshot" title="Screenshot">
+<img width="500" height="300" src="https://user-images.githubusercontent.com/78074831/111556509-247b3880-87ce-11eb-8ef8-032df90669db.png"  alt="Screenshot" title="Screenshot">
