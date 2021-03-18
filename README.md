@@ -34,15 +34,15 @@ $ roslaunch ril_mm_lidar_gazebo ril_mm_lidar_empty_world.launch
 ```
 - Moving RIL_MMR to the goal point  
 ``` 
-$ cd ~/catkin_ws/src/ril_mm_python   
+$ cd ~/catkin_ws/src/ril_mm_lidar_python   
 $ chmod +x husky_point.py
-$ rosrun ril_mm_python husky_point.py 
+$ rosrun ril_mm_lidar_python husky_point.py 
 ```
 - Contorlloing the mobile manipuatlor's arm and gripper   
 ```
-$ cd ~/catkin_ws/src/ril_mm_python
+$ cd ~/catkin_ws/src/ril_mm_lidar_python
 $ chmod +x joint_test1.py
-$ rosrun ril_mm_python joint_test1.py 
+$ rosrun ril_mm_lidar_python joint_test1.py 
 ```
 
 
