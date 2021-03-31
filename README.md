@@ -5,7 +5,7 @@ This mobile manipulator(UR5 with Robotiq Gripper85, Husky and Lidar) tutorial wi
 
 
 
-### Before start this tutorial, please check your ROS version, this package for ROS Melodic version
+### Before start this tutorial, please check your ROS version, this package is for ROS Melodic Ver.
 
 
 
