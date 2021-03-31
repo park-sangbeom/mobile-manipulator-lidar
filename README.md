@@ -17,7 +17,7 @@ This mobile manipulator(UR5 with Robotiq Gripper85, Husky and Lidar) tutorial wi
 $ cd ~/catkin_ws/src && git clone https://github.com/ros-industrial/universal_robot.git
 $ cd ~/catkin_ws/src && git clone https://github.com/StanleyInnovation/robotiq_85_gripper.git
 $ cd ~/catkin_ws/src && git clone https://github.com/husky/husky.git
-$ cd ~/catkin_ws/src && git clone https://github.com/Beom0611/ril_mm.git
+$ cd ~/catkin_ws/src && git clone https://github.com/Beom0611/ril_mm_lidar.git
 $ cd ~/catkin_ws && catkin_make
 $ rosdep update
 $ rosdep install --from-paths src --ignore-src -r -y
